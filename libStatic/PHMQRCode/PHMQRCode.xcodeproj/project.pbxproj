@@ -1,0 +1,268 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DF40979C1D7EB5600026434C /* PHMScanQRCodeView.m in Sources */ = {isa = PBXBuildFile; fileRef = DF4097991D7EB5600026434C /* PHMScanQRCodeView.m */; };
+		DF40979D1D7EB5600026434C /* PHMScanQRCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF40979B1D7EB5600026434C /* PHMScanQRCodeViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DF4097831D7EB4B00026434C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		DF4097851D7EB4B00026434C /* libPHMQRCode.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPHMQRCode.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF4097971D7EB5340026434C /* PHMQRCode-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PHMQRCode-Prefix.pch"; sourceTree = "<group>"; };
+		DF4097981D7EB5600026434C /* PHMScanQRCodeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PHMScanQRCodeView.h; sourceTree = "<group>"; };
+		DF4097991D7EB5600026434C /* PHMScanQRCodeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PHMScanQRCodeView.m; sourceTree = "<group>"; };
+		DF40979A1D7EB5600026434C /* PHMScanQRCodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PHMScanQRCodeViewController.h; sourceTree = "<group>"; };
+		DF40979B1D7EB5600026434C /* PHMScanQRCodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PHMScanQRCodeViewController.m; sourceTree = "<group>"; };
+		DF4097E71D7EBCE60026434C /* PHMQRCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PHMQRCode.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DF4097821D7EB4B00026434C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DF40977C1D7EB4B00026434C = {
+			isa = PBXGroup;
+			children = (
+				DF4097871D7EB4B00026434C /* PHMQRCode */,
+				DF4097861D7EB4B00026434C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DF4097861D7EB4B00026434C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF4097851D7EB4B00026434C /* libPHMQRCode.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DF4097871D7EB4B00026434C /* PHMQRCode */ = {
+			isa = PBXGroup;
+			children = (
+				DF4097E71D7EBCE60026434C /* PHMQRCode.h */,
+				DF4097971D7EB5340026434C /* PHMQRCode-Prefix.pch */,
+				DF4097981D7EB5600026434C /* PHMScanQRCodeView.h */,
+				DF4097991D7EB5600026434C /* PHMScanQRCodeView.m */,
+				DF40979A1D7EB5600026434C /* PHMScanQRCodeViewController.h */,
+				DF40979B1D7EB5600026434C /* PHMScanQRCodeViewController.m */,
+			);
+			path = PHMQRCode;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DF4097841D7EB4B00026434C /* PHMQRCode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF40978E1D7EB4B00026434C /* Build configuration list for PBXNativeTarget "PHMQRCode" */;
+			buildPhases = (
+				DF4097811D7EB4B00026434C /* Sources */,
+				DF4097821D7EB4B00026434C /* Frameworks */,
+				DF4097831D7EB4B00026434C /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PHMQRCode;
+			productName = PHMQRCode;
+			productReference = DF4097851D7EB4B00026434C /* libPHMQRCode.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DF40977D1D7EB4B00026434C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = PHM;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = PHM;
+				TargetAttributes = {
+					DF4097841D7EB4B00026434C = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = DF4097801D7EB4B00026434C /* Build configuration list for PBXProject "PHMQRCode" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DF40977C1D7EB4B00026434C;
+			productRefGroup = DF4097861D7EB4B00026434C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DF4097841D7EB4B00026434C /* PHMQRCode */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DF4097811D7EB4B00026434C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF40979D1D7EB5600026434C /* PHMScanQRCodeViewController.m in Sources */,
+				DF40979C1D7EB5600026434C /* PHMScanQRCodeView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		DF40978C1D7EB4B00026434C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DF40978D1D7EB4B00026434C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DF40978F1D7EB4B00026434C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREFIX_HEADER = "PHMQRCode/PHMQRCode-Prefix.pch";
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/../../Pods/Headers/**";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		DF4097901D7EB4B00026434C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREFIX_HEADER = "PHMQRCode/PHMQRCode-Prefix.pch";
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/../../Pods/Headers/**";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DF4097801D7EB4B00026434C /* Build configuration list for PBXProject "PHMQRCode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF40978C1D7EB4B00026434C /* Debug */,
+				DF40978D1D7EB4B00026434C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF40978E1D7EB4B00026434C /* Build configuration list for PBXNativeTarget "PHMQRCode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF40978F1D7EB4B00026434C /* Debug */,
+				DF4097901D7EB4B00026434C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DF40977D1D7EB4B00026434C /* Project object */;
+}
