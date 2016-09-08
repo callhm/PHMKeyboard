@@ -9,5 +9,5 @@
 #ifndef PHMAssetsManager_h
 #define PHMAssetsManager_h
 
-
+#import "PHMAssetsSelectMenu.h"
 #endif /* PHMAssetsManager_h */

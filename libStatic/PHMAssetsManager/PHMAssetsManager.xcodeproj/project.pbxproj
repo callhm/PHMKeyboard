@@ -6,6 +6,11 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		DF40981E1D800B3A0026434C /* PHMAssetsSelectMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = DF40981D1D800B3A0026434C /* PHMAssetsSelectMenu.m */; };
+		DF4099211D8064C40026434C /* PHMAssetsSelectImagePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = DF4099201D8064C40026434C /* PHMAssetsSelectImagePicker.m */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXCopyFilesBuildPhase section */
 		DF4097FA1D7FFA4D0026434C /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -22,6 +27,11 @@
 		DF4097FC1D7FFA4D0026434C /* libPHMAssetsManager.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPHMAssetsManager.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF4098081D7FFAA10026434C /* PHMAssetsManager-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PHMAssetsManager-Prefix.pch"; sourceTree = "<group>"; };
 		DF4098091D7FFAB50026434C /* PHMAssetsManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PHMAssetsManager.h; sourceTree = "<group>"; };
+		DF40981C1D800B3A0026434C /* PHMAssetsSelectMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PHMAssetsSelectMenu.h; sourceTree = "<group>"; };
+		DF40981D1D800B3A0026434C /* PHMAssetsSelectMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PHMAssetsSelectMenu.m; sourceTree = "<group>"; };
+		DF40991F1D8064C40026434C /* PHMAssetsSelectImagePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PHMAssetsSelectImagePicker.h; sourceTree = "<group>"; };
+		DF4099201D8064C40026434C /* PHMAssetsSelectImagePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PHMAssetsSelectImagePicker.m; sourceTree = "<group>"; };
+		DF4099221D8068800026434C /* PHMAssetsSelectMenuDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PHMAssetsSelectMenuDelegate.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +66,11 @@
 			children = (
 				DF4098091D7FFAB50026434C /* PHMAssetsManager.h */,
 				DF4098081D7FFAA10026434C /* PHMAssetsManager-Prefix.pch */,
+				DF40981C1D800B3A0026434C /* PHMAssetsSelectMenu.h */,
+				DF40981D1D800B3A0026434C /* PHMAssetsSelectMenu.m */,
+				DF4099221D8068800026434C /* PHMAssetsSelectMenuDelegate.h */,
+				DF40991F1D8064C40026434C /* PHMAssetsSelectImagePicker.h */,
+				DF4099201D8064C40026434C /* PHMAssetsSelectImagePicker.m */,
 			);
 			path = PHMAssetsManager;
 			sourceTree = "<group>";
@@ -86,6 +101,7 @@
 		DF4097F41D7FFA4D0026434C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = PHM;
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = PHM;
 				TargetAttributes = {
@@ -116,6 +132,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF4099211D8064C40026434C /* PHMAssetsSelectImagePicker.m in Sources */,
+				DF40981E1D800B3A0026434C /* PHMAssetsSelectMenu.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -145,6 +163,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)/**";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -159,7 +178,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -189,6 +208,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)/**";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -197,7 +217,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -207,6 +227,11 @@
 		DF4098061D7FFA4D0026434C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				CLANG_CXX_LIBRARY = "libstdc++";
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GCC_INPUT_FILETYPE = sourcecode.cpp.objcpp;
 				GCC_PREFIX_HEADER = "PHMAssetsManager/PHMAssetsManager-Prefix.pch";
 				HEADER_SEARCH_PATHS = "$(SRCROOT)/../../Pods/Headers/**";
 				OTHER_LDFLAGS = "-ObjC";
@@ -218,6 +243,11 @@
 		DF4098071D7FFA4D0026434C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				CLANG_CXX_LIBRARY = "libstdc++";
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GCC_INPUT_FILETYPE = sourcecode.cpp.objcpp;
 				GCC_PREFIX_HEADER = "PHMAssetsManager/PHMAssetsManager-Prefix.pch";
 				HEADER_SEARCH_PATHS = "$(SRCROOT)/../../Pods/Headers/**";
 				OTHER_LDFLAGS = "-ObjC";
@@ -245,6 +275,7 @@
 				DF4098071D7FFA4D0026434C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
