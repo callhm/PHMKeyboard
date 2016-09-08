@@ -17,6 +17,7 @@
     _didFinishTakePhotoCompled = nil;
 }
 
+#pragma mark imagePicker 并返回选区图片
 - (void)showImagePickerControllerSourceType:(UIImagePickerControllerSourceType)sourceType
                            onViewController:(UIViewController *)viewController
                                     compled:(didFinishTakeImageCompledBlock)compled {
@@ -39,7 +40,51 @@
     [imagePickerController.navigationBar setTintColor:[UIColor whiteColor]];
     //[imagePickerController.navigationBar setBackgroundImage:[UIImage imageNamed:@"bg_navigation"] forBarMetrics:UIBarMetricsDefault];
     imagePickerController.navigationController.navigationBar.translucent = NO;
-    [viewController presentViewController:imagePickerController animated:YES completion:NULL];
+    [[self getWindowRC] presentViewController:imagePickerController animated:YES completion:NULL];
+}
+
+#pragma mark 获取Window rootController
+- (UIViewController *)getWindowRC {
+    UIWindow * window = [[UIApplication sharedApplication] keyWindow];
+    if (window.windowLevel != UIWindowLevelNormal)
+    {
+        NSArray *windows = [[UIApplication sharedApplication] windows];
+        for(UIWindow * tmpWin in windows)
+        {
+            if (tmpWin.windowLevel == UIWindowLevelNormal)
+            {
+                window = tmpWin;
+                break;
+            }
+        }
+    }
+    return window.rootViewController;
+}
+
+#pragma mark 获取当前屏幕显示的ViewController
+- (UIViewController *)getCurrentVC {
+    UIWindow * window = [[UIApplication sharedApplication] keyWindow];
+    if (window.windowLevel != UIWindowLevelNormal)
+    {
+        NSArray *windows = [[UIApplication sharedApplication] windows];
+        for(UIWindow * tmpWin in windows)
+        {
+            if (tmpWin.windowLevel == UIWindowLevelNormal)
+            {
+                window = tmpWin;
+                break;
+            }
+        }
+    }
+    
+    UIViewController *result = nil;
+    UIView *frontView = [[window subviews] objectAtIndex:0];
+    id nextResponder = [frontView nextResponder];
+    if ([nextResponder isKindOfClass:[UIViewController class]])
+        result = nextResponder;
+    else
+        result = window.rootViewController;
+    return result;
 }
 
 #pragma mark - Delegate and DataSource

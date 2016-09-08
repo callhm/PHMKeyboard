@@ -8,6 +8,7 @@
 
 #import "PHMAssetsSelectMenu.h"
 #import "PHMAssetsSelectImagePicker.h"
+#import <AVFoundation/AVFoundation.h>
 
 @interface PHMAssetsSelectMenu ()
 @property (nonatomic, strong) PHMAssetsSelectImagePicker *assetsSelectImagePicker;
@@ -26,9 +27,11 @@
 }
 
 #pragma mark 显示
-- (void)show:(id<PHMAssetsSelectMenuDelegate>)delegate {
+- (void)showWithMenuType:(PHMAssetsMenuType)menuType  delegate:(id<PHMAssetsSelectMenuDelegate>)delegate{
+    self.menuType = menuType;
     self.delegate = delegate;
-    switch (_menuType) {
+    
+    switch (menuType) {
         case PHMAssetsMenuTypeSelectLocalCamera:
             [self selectLocalImageWithSourceType:UIImagePickerControllerSourceTypeCamera];
             break;
@@ -73,14 +76,48 @@
             [sheet showInView:currentWindow];
         }
             break;
-            
         default:
             break;
     }
 }
 
+#pragma mark 验证本地相机 相册 是否可用
+-(BOOL)authorizationStatus{
+    __block BOOL authorization;
+    AVAuthorizationStatus authorizationStatus = [AVCaptureDevice authorizationStatusForMediaType:AVMediaTypeVideo];
+    switch (authorizationStatus) {
+        case AVAuthorizationStatusNotDetermined: {//第一次做出选择
+            [AVCaptureDevice requestAccessForMediaType:AVMediaTypeVideo completionHandler: ^(BOOL granted) {
+                if (granted) {
+                    authorization = YES;
+                } else {
+                    //用户拒绝访问
+                    authorization = NO;
+                }
+            }];
+            break;
+        }
+        case AVAuthorizationStatusAuthorized: {
+            authorization = YES;
+            break;
+        }
+        case AVAuthorizationStatusRestricted:{//家长限制 访问受限
+            authorization = NO;
+        }
+        case AVAuthorizationStatusDenied: {//用户拒绝访问
+            authorization = NO;
+            break;
+        }
+        default: {
+            authorization = NO;
+            break;
+        }
+    }
+    return authorization;
+}
+
 - (void)selectLocalImageWithSourceType:(UIImagePickerControllerSourceType)sourceType {
-    [self.assetsSelectImagePicker showImagePickerControllerSourceType:sourceType onViewController:_rootViewController compled:^(UIImage *image, UIImage *thumbnailImage, NSString *url) {
+    [self.assetsSelectImagePicker showImagePickerControllerSourceType:sourceType onViewController:nil compled:^(UIImage *image, UIImage *thumbnailImage, NSString *url) {
         if (image) {
             if ([_delegate respondsToSelector:@selector(didSendPhoto:thumbnailImage:filePath:)]) {
                 [_delegate didSendPhoto:image thumbnailImage:thumbnailImage filePath:url];
@@ -91,8 +128,7 @@
 
 #pragma mark - Delegate
 #pragma mark - UIActionSheetDelegate
-- (void)actionSheet:(UIActionSheet *)actionSheet willDismissWithButtonIndex:(NSInteger)buttonIndex
-{
+- (void)actionSheet:(UIActionSheet *)actionSheet willDismissWithButtonIndex:(NSInteger)buttonIndex {
     switch (_menuType) {
         case PHMAssetsMenuTypeSelectLocalCameraAndImage:
             switch (buttonIndex) {
@@ -113,19 +149,19 @@
                     break;
                 }
                 case 1: {
-//                    UzysAssetsPickerController *assetsPickerController = [[UzysAssetsPickerController alloc] init];
-//                    assetsPickerController.mulSelectionStyle = AssetsPickerMulSelectionMerchantStyle;
-//                    assetsPickerController.delegate = (id<UzysAssetsPickerControllerDelegate>)self;
-//                    
-//                    assetsPickerController.maximumNumberOfSelectionMedia = 15;
-//                    assetsPickerController.showCameraCell = NO;
-//                    assetsPickerController.canPreview = YES;
-//                    assetsPickerController.automaticallyAdjustsScrollViewInsets = NO;
-//                    assetsPickerController.assetsFilter = [ALAssetsFilter allPhotos];
-//                    
-//                    UINavigationController *rootNav = [[UINavigationController alloc] initWithRootViewController:assetsPickerController];
-//                    [_rootViewController presentViewController:rootNav animated:YES completion:nil];
-//                    
+                    //                    UzysAssetsPickerController *assetsPickerController = [[UzysAssetsPickerController alloc] init];
+                    //                    assetsPickerController.mulSelectionStyle = AssetsPickerMulSelectionMerchantStyle;
+                    //                    assetsPickerController.delegate = (id<UzysAssetsPickerControllerDelegate>)self;
+                    //
+                    //                    assetsPickerController.maximumNumberOfSelectionMedia = 15;
+                    //                    assetsPickerController.showCameraCell = NO;
+                    //                    assetsPickerController.canPreview = YES;
+                    //                    assetsPickerController.automaticallyAdjustsScrollViewInsets = NO;
+                    //                    assetsPickerController.assetsFilter = [ALAssetsFilter allPhotos];
+                    //
+                    //                    UINavigationController *rootNav = [[UINavigationController alloc] initWithRootViewController:assetsPickerController];
+                    //                    [_rootViewController presentViewController:rootNav animated:YES completion:nil];
+                    //
                     break;
                 }
             }
@@ -134,7 +170,5 @@
         default:
             break;
     }
-    
-    actionSheet = nil;
 }
 @end

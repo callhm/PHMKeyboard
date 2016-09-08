@@ -19,14 +19,13 @@ typedef NS_ENUM(NSInteger, PHMAssetsMenuType) {
 
 
 @interface PHMAssetsSelectMenu : NSObject <UIActionSheetDelegate>
-@property (nonatomic, weak) UIViewController *rootViewController;  //根控制器
 @property (nonatomic, assign) PHMAssetsMenuType menuType;
 @property (nonatomic, strong) NSString *selectLocalImageTitle;     //图片选择器表述title
 @property (nonatomic, weak) id<PHMAssetsSelectMenuDelegate> delegate;
 
 
 /**
- * @brief 显示
+ * @brief 显示选取资源选项栏
  */
-- (void)show:(id<PHMAssetsSelectMenuDelegate>)delegates;
+- (void)showWithMenuType:(PHMAssetsMenuType)menuType  delegate:(id<PHMAssetsSelectMenuDelegate>)delegate;
 @end
