@@ -1,0 +1,520 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DFBF3E6E1D84553C00B84900 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFBF3E6D1D84553C00B84900 /* AppDelegate.swift */; };
+		DFBF3E701D84553C00B84900 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = DFBF3E6F1D84553C00B84900 /* GameScene.sks */; };
+		DFBF3E721D84553C00B84900 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFBF3E711D84553C00B84900 /* GameScene.swift */; };
+		DFBF3E741D84553C00B84900 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFBF3E731D84553C00B84900 /* GameViewController.swift */; };
+		DFBF3E771D84553C00B84900 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFBF3E751D84553C00B84900 /* Main.storyboard */; };
+		DFBF3E791D84553C00B84900 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFBF3E781D84553C00B84900 /* Assets.xcassets */; };
+		DFBF3E7C1D84553C00B84900 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFBF3E7A1D84553C00B84900 /* LaunchScreen.storyboard */; };
+		DFBF3E871D84553C00B84900 /* PixelMasterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFBF3E861D84553C00B84900 /* PixelMasterTests.swift */; };
+		DFBF3E921D84553C00B84900 /* PixelMasterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFBF3E911D84553C00B84900 /* PixelMasterUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DFBF3E831D84553C00B84900 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DFBF3E621D84553C00B84900 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DFBF3E691D84553C00B84900;
+			remoteInfo = PixelMaster;
+		};
+		DFBF3E8E1D84553C00B84900 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DFBF3E621D84553C00B84900 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DFBF3E691D84553C00B84900;
+			remoteInfo = PixelMaster;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DFBF3E6A1D84553C00B84900 /* PixelMaster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PixelMaster.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFBF3E6D1D84553C00B84900 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DFBF3E6F1D84553C00B84900 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		DFBF3E711D84553C00B84900 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		DFBF3E731D84553C00B84900 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		DFBF3E761D84553C00B84900 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DFBF3E781D84553C00B84900 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DFBF3E7B1D84553C00B84900 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DFBF3E7D1D84553C00B84900 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFBF3E821D84553C00B84900 /* PixelMasterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PixelMasterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFBF3E861D84553C00B84900 /* PixelMasterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PixelMasterTests.swift; sourceTree = "<group>"; };
+		DFBF3E881D84553C00B84900 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFBF3E8D1D84553C00B84900 /* PixelMasterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PixelMasterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFBF3E911D84553C00B84900 /* PixelMasterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PixelMasterUITests.swift; sourceTree = "<group>"; };
+		DFBF3E931D84553C00B84900 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DFBF3E671D84553C00B84900 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFBF3E7F1D84553C00B84900 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFBF3E8A1D84553C00B84900 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DFBF3E611D84553C00B84900 = {
+			isa = PBXGroup;
+			children = (
+				DFBF3E6C1D84553C00B84900 /* PixelMaster */,
+				DFBF3E851D84553C00B84900 /* PixelMasterTests */,
+				DFBF3E901D84553C00B84900 /* PixelMasterUITests */,
+				DFBF3E6B1D84553C00B84900 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DFBF3E6B1D84553C00B84900 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DFBF3E6A1D84553C00B84900 /* PixelMaster.app */,
+				DFBF3E821D84553C00B84900 /* PixelMasterTests.xctest */,
+				DFBF3E8D1D84553C00B84900 /* PixelMasterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DFBF3E6C1D84553C00B84900 /* PixelMaster */ = {
+			isa = PBXGroup;
+			children = (
+				DFBF3E6D1D84553C00B84900 /* AppDelegate.swift */,
+				DFBF3E6F1D84553C00B84900 /* GameScene.sks */,
+				DFBF3E711D84553C00B84900 /* GameScene.swift */,
+				DFBF3E731D84553C00B84900 /* GameViewController.swift */,
+				DFBF3E751D84553C00B84900 /* Main.storyboard */,
+				DFBF3E781D84553C00B84900 /* Assets.xcassets */,
+				DFBF3E7A1D84553C00B84900 /* LaunchScreen.storyboard */,
+				DFBF3E7D1D84553C00B84900 /* Info.plist */,
+			);
+			path = PixelMaster;
+			sourceTree = "<group>";
+		};
+		DFBF3E851D84553C00B84900 /* PixelMasterTests */ = {
+			isa = PBXGroup;
+			children = (
+				DFBF3E861D84553C00B84900 /* PixelMasterTests.swift */,
+				DFBF3E881D84553C00B84900 /* Info.plist */,
+			);
+			path = PixelMasterTests;
+			sourceTree = "<group>";
+		};
+		DFBF3E901D84553C00B84900 /* PixelMasterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DFBF3E911D84553C00B84900 /* PixelMasterUITests.swift */,
+				DFBF3E931D84553C00B84900 /* Info.plist */,
+			);
+			path = PixelMasterUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DFBF3E691D84553C00B84900 /* PixelMaster */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFBF3E961D84553C00B84900 /* Build configuration list for PBXNativeTarget "PixelMaster" */;
+			buildPhases = (
+				DFBF3E661D84553C00B84900 /* Sources */,
+				DFBF3E671D84553C00B84900 /* Frameworks */,
+				DFBF3E681D84553C00B84900 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PixelMaster;
+			productName = PixelMaster;
+			productReference = DFBF3E6A1D84553C00B84900 /* PixelMaster.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DFBF3E811D84553C00B84900 /* PixelMasterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFBF3E991D84553C00B84900 /* Build configuration list for PBXNativeTarget "PixelMasterTests" */;
+			buildPhases = (
+				DFBF3E7E1D84553C00B84900 /* Sources */,
+				DFBF3E7F1D84553C00B84900 /* Frameworks */,
+				DFBF3E801D84553C00B84900 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DFBF3E841D84553C00B84900 /* PBXTargetDependency */,
+			);
+			name = PixelMasterTests;
+			productName = PixelMasterTests;
+			productReference = DFBF3E821D84553C00B84900 /* PixelMasterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DFBF3E8C1D84553C00B84900 /* PixelMasterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFBF3E9C1D84553C00B84900 /* Build configuration list for PBXNativeTarget "PixelMasterUITests" */;
+			buildPhases = (
+				DFBF3E891D84553C00B84900 /* Sources */,
+				DFBF3E8A1D84553C00B84900 /* Frameworks */,
+				DFBF3E8B1D84553C00B84900 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DFBF3E8F1D84553C00B84900 /* PBXTargetDependency */,
+			);
+			name = PixelMasterUITests;
+			productName = PixelMasterUITests;
+			productReference = DFBF3E8D1D84553C00B84900 /* PixelMasterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DFBF3E621D84553C00B84900 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = PHM;
+				TargetAttributes = {
+					DFBF3E691D84553C00B84900 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					DFBF3E811D84553C00B84900 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = DFBF3E691D84553C00B84900;
+					};
+					DFBF3E8C1D84553C00B84900 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = DFBF3E691D84553C00B84900;
+					};
+				};
+			};
+			buildConfigurationList = DFBF3E651D84553C00B84900 /* Build configuration list for PBXProject "PixelMaster" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DFBF3E611D84553C00B84900;
+			productRefGroup = DFBF3E6B1D84553C00B84900 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DFBF3E691D84553C00B84900 /* PixelMaster */,
+				DFBF3E811D84553C00B84900 /* PixelMasterTests */,
+				DFBF3E8C1D84553C00B84900 /* PixelMasterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DFBF3E681D84553C00B84900 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFBF3E701D84553C00B84900 /* GameScene.sks in Resources */,
+				DFBF3E7C1D84553C00B84900 /* LaunchScreen.storyboard in Resources */,
+				DFBF3E791D84553C00B84900 /* Assets.xcassets in Resources */,
+				DFBF3E771D84553C00B84900 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFBF3E801D84553C00B84900 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFBF3E8B1D84553C00B84900 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DFBF3E661D84553C00B84900 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFBF3E721D84553C00B84900 /* GameScene.swift in Sources */,
+				DFBF3E741D84553C00B84900 /* GameViewController.swift in Sources */,
+				DFBF3E6E1D84553C00B84900 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFBF3E7E1D84553C00B84900 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFBF3E871D84553C00B84900 /* PixelMasterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFBF3E891D84553C00B84900 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFBF3E921D84553C00B84900 /* PixelMasterUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DFBF3E841D84553C00B84900 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DFBF3E691D84553C00B84900 /* PixelMaster */;
+			targetProxy = DFBF3E831D84553C00B84900 /* PBXContainerItemProxy */;
+		};
+		DFBF3E8F1D84553C00B84900 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DFBF3E691D84553C00B84900 /* PixelMaster */;
+			targetProxy = DFBF3E8E1D84553C00B84900 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DFBF3E751D84553C00B84900 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DFBF3E761D84553C00B84900 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DFBF3E7A1D84553C00B84900 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DFBF3E7B1D84553C00B84900 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DFBF3E941D84553C00B84900 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DFBF3E951D84553C00B84900 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DFBF3E971D84553C00B84900 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PixelMaster/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.peihaoming.PixelMaster;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DFBF3E981D84553C00B84900 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PixelMaster/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.peihaoming.PixelMaster;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DFBF3E9A1D84553C00B84900 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = PixelMasterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.peihaoming.PixelMasterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PixelMaster.app/PixelMaster";
+			};
+			name = Debug;
+		};
+		DFBF3E9B1D84553C00B84900 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PixelMasterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.peihaoming.PixelMasterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PixelMaster.app/PixelMaster";
+			};
+			name = Release;
+		};
+		DFBF3E9D1D84553C00B84900 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = PixelMasterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.peihaoming.PixelMasterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PixelMaster;
+			};
+			name = Debug;
+		};
+		DFBF3E9E1D84553C00B84900 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PixelMasterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.peihaoming.PixelMasterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PixelMaster;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DFBF3E651D84553C00B84900 /* Build configuration list for PBXProject "PixelMaster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFBF3E941D84553C00B84900 /* Debug */,
+				DFBF3E951D84553C00B84900 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFBF3E961D84553C00B84900 /* Build configuration list for PBXNativeTarget "PixelMaster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFBF3E971D84553C00B84900 /* Debug */,
+				DFBF3E981D84553C00B84900 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFBF3E991D84553C00B84900 /* Build configuration list for PBXNativeTarget "PixelMasterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFBF3E9A1D84553C00B84900 /* Debug */,
+				DFBF3E9B1D84553C00B84900 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFBF3E9C1D84553C00B84900 /* Build configuration list for PBXNativeTarget "PixelMasterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFBF3E9D1D84553C00B84900 /* Debug */,
+				DFBF3E9E1D84553C00B84900 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DFBF3E621D84553C00B84900 /* Project object */;
+}

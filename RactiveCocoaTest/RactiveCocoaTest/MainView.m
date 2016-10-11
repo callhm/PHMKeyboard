@@ -64,6 +64,7 @@
 {
     self = [super init];
     if (self) {
+        
         [self addSubview:self.reactiveTF];
         [self addSubview:self.reactiveBtn];
         [self addSubview:self.reactiveLB];
@@ -208,7 +209,10 @@
 -(void)layoutSubviews {
     [super layoutSubviews];
     NSLog(@"22222");
-    
+    CFRunLoopObserverRef runloop =  CFRunLoopObserverCreateWithHandler(CFAllocatorGetDefault(), kCFRunLoopBeforeSources, YES, 0, ^(CFRunLoopObserverRef observer, CFRunLoopActivity activity) {
+        NSLog(@"%@,%lu",observer, activity);
+    });
+    CFRunLoopAddObserver(CFRunLoopGetCurrent(), runloop, kCFRunLoopDefaultMode);
     
 }
 

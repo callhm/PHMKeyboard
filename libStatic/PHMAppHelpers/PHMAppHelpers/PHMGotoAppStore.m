@@ -150,11 +150,13 @@
             case 0:
                  //存储操作选项
                 [userDefaults setObject:[NSString stringWithFormat:@"%ld",(long)PHMGotoAppStoreCommentChooseTypeReject] forKey:@"PHMUserCommentChoose"];
+                [userDefaults synchronize];
                 break;
             case 1:
             {
                  //存储操作选项
                 [userDefaults setObject:[NSString stringWithFormat:@"%ld",(long)PHMGotoAppStoreCommentChooseTypeAccept] forKey:@"PHMUserCommentChoose"];
+                [userDefaults synchronize];
                 //跳转App Store
                 NSString *str = [NSString stringWithFormat:
                                  @"https://itunes.apple.com/cn/app/id%@?mt=8",
@@ -166,6 +168,7 @@
             default:
                  //存储操作选项
                 [userDefaults setObject:[NSString stringWithFormat:@"%ld",(long)PHMGotoAppStoreCommentChooseTypeReject] forKey:@"PHMUserCommentChoose"];
+                [userDefaults synchronize];
                 break;
         }
     }else if(alertView.tag == 1000){//APP 更新
@@ -173,6 +176,7 @@
         NSDate* nowDate = [PHMGotoAppStore getNetworkBaiduDate];
         NSTimeInterval nowInterval = [nowDate timeIntervalSince1970];
         [userDefaults setObject:[NSString stringWithFormat:@"%f",nowInterval] forKey:@"PHMUpdateAppTimestamp"];
+        [userDefaults synchronize];
         switch (buttonIndex) {
             case 0:
                 

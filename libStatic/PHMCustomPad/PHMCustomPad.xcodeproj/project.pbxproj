@@ -7,35 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DF40981E1D800B3A0026434C /* PHMAssetsSelectMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = DF40981D1D800B3A0026434C /* PHMAssetsSelectMenu.m */; };
-		DF4099211D8064C40026434C /* PHMAssetsSelectImagePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = DF4099201D8064C40026434C /* PHMAssetsSelectImagePicker.m */; };
+		DFBF3EB01D8653AF00B84900 /* PHMCustomPad.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = DFBF3EAF1D8653AF00B84900 /* PHMCustomPad.h */; };
+		DFBF3EBA1D8653EC00B84900 /* PHMCustomPadButton.m in Sources */ = {isa = PBXBuildFile; fileRef = DFBF3EB91D8653EC00B84900 /* PHMCustomPadButton.m */; };
+		DFBF3EC61D866C9600B84900 /* PHMCustomPadDefaultStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = DFBF3EC51D866C9600B84900 /* PHMCustomPadDefaultStyle.m */; };
+		DFBF3ECA1D867DF800B84900 /* PHMCustomPadDefaultView.m in Sources */ = {isa = PBXBuildFile; fileRef = DFBF3EC91D867DF800B84900 /* PHMCustomPadDefaultView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		DF4097FA1D7FFA4D0026434C /* CopyFiles */ = {
+		DFBF3EAA1D8653AF00B84900 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
+				DFBF3EB01D8653AF00B84900 /* PHMCustomPad.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		DF4097FC1D7FFA4D0026434C /* libPHMAssetsManager.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPHMAssetsManager.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		DF4098081D7FFAA10026434C /* PHMAssetsManager-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PHMAssetsManager-Prefix.pch"; sourceTree = "<group>"; };
-		DF4098091D7FFAB50026434C /* PHMAssetsManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PHMAssetsManager.h; sourceTree = "<group>"; };
-		DF40981C1D800B3A0026434C /* PHMAssetsSelectMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PHMAssetsSelectMenu.h; sourceTree = "<group>"; };
-		DF40981D1D800B3A0026434C /* PHMAssetsSelectMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PHMAssetsSelectMenu.m; sourceTree = "<group>"; };
-		DF40991F1D8064C40026434C /* PHMAssetsSelectImagePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PHMAssetsSelectImagePicker.h; sourceTree = "<group>"; };
-		DF4099201D8064C40026434C /* PHMAssetsSelectImagePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PHMAssetsSelectImagePicker.m; sourceTree = "<group>"; };
-		DF4099221D8068800026434C /* PHMAssetsSelectMenuDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PHMAssetsSelectMenuDelegate.h; sourceTree = "<group>"; };
+		DFBF3EAC1D8653AF00B84900 /* libPHMCustomPad.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPHMCustomPad.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFBF3EAF1D8653AF00B84900 /* PHMCustomPad.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PHMCustomPad.h; sourceTree = "<group>"; };
+		DFBF3EB81D8653EC00B84900 /* PHMCustomPadButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PHMCustomPadButton.h; sourceTree = "<group>"; };
+		DFBF3EB91D8653EC00B84900 /* PHMCustomPadButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PHMCustomPadButton.m; sourceTree = "<group>"; };
+		DFBF3EC41D866C9600B84900 /* PHMCustomPadDefaultStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PHMCustomPadDefaultStyle.h; sourceTree = "<group>"; };
+		DFBF3EC51D866C9600B84900 /* PHMCustomPadDefaultStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PHMCustomPadDefaultStyle.m; sourceTree = "<group>"; };
+		DFBF3EC71D8672B600B84900 /* PHMCustomPadStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PHMCustomPadStyle.h; sourceTree = "<group>"; };
+		DFBF3EC81D867DF800B84900 /* PHMCustomPadDefaultView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PHMCustomPadDefaultView.h; sourceTree = "<group>"; };
+		DFBF3EC91D867DF800B84900 /* PHMCustomPadDefaultView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PHMCustomPadDefaultView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		DF4097F91D7FFA4D0026434C /* Frameworks */ = {
+		DFBF3EA91D8653AF00B84900 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -45,102 +49,104 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		DF4097F31D7FFA4C0026434C = {
+		DFBF3EA31D8653AF00B84900 = {
 			isa = PBXGroup;
 			children = (
-				DF4097FE1D7FFA4D0026434C /* PHMAssetsManager */,
-				DF4097FD1D7FFA4D0026434C /* Products */,
+				DFBF3EAE1D8653AF00B84900 /* PHMCustomPad */,
+				DFBF3EAD1D8653AF00B84900 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		DF4097FD1D7FFA4D0026434C /* Products */ = {
+		DFBF3EAD1D8653AF00B84900 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DF4097FC1D7FFA4D0026434C /* libPHMAssetsManager.a */,
+				DFBF3EAC1D8653AF00B84900 /* libPHMCustomPad.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		DF4097FE1D7FFA4D0026434C /* PHMAssetsManager */ = {
+		DFBF3EAE1D8653AF00B84900 /* PHMCustomPad */ = {
 			isa = PBXGroup;
 			children = (
-				DF4098091D7FFAB50026434C /* PHMAssetsManager.h */,
-				DF4098081D7FFAA10026434C /* PHMAssetsManager-Prefix.pch */,
-				DF40981C1D800B3A0026434C /* PHMAssetsSelectMenu.h */,
-				DF40981D1D800B3A0026434C /* PHMAssetsSelectMenu.m */,
-				DF4099221D8068800026434C /* PHMAssetsSelectMenuDelegate.h */,
-				DF40991F1D8064C40026434C /* PHMAssetsSelectImagePicker.h */,
-				DF4099201D8064C40026434C /* PHMAssetsSelectImagePicker.m */,
+				DFBF3EAF1D8653AF00B84900 /* PHMCustomPad.h */,
+				DFBF3EB81D8653EC00B84900 /* PHMCustomPadButton.h */,
+				DFBF3EB91D8653EC00B84900 /* PHMCustomPadButton.m */,
+				DFBF3EC81D867DF800B84900 /* PHMCustomPadDefaultView.h */,
+				DFBF3EC91D867DF800B84900 /* PHMCustomPadDefaultView.m */,
+				DFBF3EC41D866C9600B84900 /* PHMCustomPadDefaultStyle.h */,
+				DFBF3EC51D866C9600B84900 /* PHMCustomPadDefaultStyle.m */,
+				DFBF3EC71D8672B600B84900 /* PHMCustomPadStyle.h */,
 			);
-			path = PHMAssetsManager;
+			path = PHMCustomPad;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		DF4097FB1D7FFA4D0026434C /* PHMAssetsManager */ = {
+		DFBF3EAB1D8653AF00B84900 /* PHMCustomPad */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DF4098051D7FFA4D0026434C /* Build configuration list for PBXNativeTarget "PHMAssetsManager" */;
+			buildConfigurationList = DFBF3EB51D8653AF00B84900 /* Build configuration list for PBXNativeTarget "PHMCustomPad" */;
 			buildPhases = (
-				DF4097F81D7FFA4D0026434C /* Sources */,
-				DF4097F91D7FFA4D0026434C /* Frameworks */,
-				DF4097FA1D7FFA4D0026434C /* CopyFiles */,
+				DFBF3EA81D8653AF00B84900 /* Sources */,
+				DFBF3EA91D8653AF00B84900 /* Frameworks */,
+				DFBF3EAA1D8653AF00B84900 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = PHMAssetsManager;
-			productName = PHMAssetsManager;
-			productReference = DF4097FC1D7FFA4D0026434C /* libPHMAssetsManager.a */;
+			name = PHMCustomPad;
+			productName = PHMCustomPad;
+			productReference = DFBF3EAC1D8653AF00B84900 /* libPHMCustomPad.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		DF4097F41D7FFA4D0026434C /* Project object */ = {
+		DFBF3EA41D8653AF00B84900 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = PHM;
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = PHM;
 				TargetAttributes = {
-					DF4097FB1D7FFA4D0026434C = {
+					DFBF3EAB1D8653AF00B84900 = {
 						CreatedOnToolsVersion = 7.3.1;
 					};
 				};
 			};
-			buildConfigurationList = DF4097F71D7FFA4D0026434C /* Build configuration list for PBXProject "PHMAssetsManager" */;
+			buildConfigurationList = DFBF3EA71D8653AF00B84900 /* Build configuration list for PBXProject "PHMCustomPad" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = DF4097F31D7FFA4C0026434C;
-			productRefGroup = DF4097FD1D7FFA4D0026434C /* Products */;
+			mainGroup = DFBF3EA31D8653AF00B84900;
+			productRefGroup = DFBF3EAD1D8653AF00B84900 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DF4097FB1D7FFA4D0026434C /* PHMAssetsManager */,
+				DFBF3EAB1D8653AF00B84900 /* PHMCustomPad */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		DF4097F81D7FFA4D0026434C /* Sources */ = {
+		DFBF3EA81D8653AF00B84900 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF4099211D8064C40026434C /* PHMAssetsSelectImagePicker.m in Sources */,
-				DF40981E1D800B3A0026434C /* PHMAssetsSelectMenu.m in Sources */,
+				DFBF3EC61D866C9600B84900 /* PHMCustomPadDefaultStyle.m in Sources */,
+				DFBF3EBA1D8653EC00B84900 /* PHMCustomPadButton.m in Sources */,
+				DFBF3ECA1D867DF800B84900 /* PHMCustomPadDefaultView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		DF4098031D7FFA4D0026434C /* Debug */ = {
+		DFBF3EB31D8653AF00B84900 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -163,7 +169,6 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				FRAMEWORK_SEARCH_PATHS = "$(inherited)/**";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -185,7 +190,7 @@
 			};
 			name = Debug;
 		};
-		DF4098041D7FFA4D0026434C /* Release */ = {
+		DFBF3EB41D8653AF00B84900 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -208,7 +213,6 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				FRAMEWORK_SEARCH_PATHS = "$(inherited)/**";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -224,32 +228,20 @@
 			};
 			name = Release;
 		};
-		DF4098061D7FFA4D0026434C /* Debug */ = {
+		DFBF3EB61D8653AF00B84900 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
-				CLANG_CXX_LIBRARY = "libstdc++";
-				FRAMEWORK_SEARCH_PATHS = "";
-				GCC_INPUT_FILETYPE = sourcecode.cpp.objcpp;
-				GCC_PREFIX_HEADER = "PHMAssetsManager/PHMAssetsManager-Prefix.pch";
-				HEADER_SEARCH_PATHS = "$(SRCROOT)/../../Pods/Headers/**";
+				HEADER_SEARCH_PATHS = "";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
 		};
-		DF4098071D7FFA4D0026434C /* Release */ = {
+		DFBF3EB71D8653AF00B84900 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
-				CLANG_CXX_LIBRARY = "libstdc++";
-				FRAMEWORK_SEARCH_PATHS = "";
-				GCC_INPUT_FILETYPE = sourcecode.cpp.objcpp;
-				GCC_PREFIX_HEADER = "PHMAssetsManager/PHMAssetsManager-Prefix.pch";
-				HEADER_SEARCH_PATHS = "$(SRCROOT)/../../Pods/Headers/**";
+				HEADER_SEARCH_PATHS = "";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -259,25 +251,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		DF4097F71D7FFA4D0026434C /* Build configuration list for PBXProject "PHMAssetsManager" */ = {
+		DFBF3EA71D8653AF00B84900 /* Build configuration list for PBXProject "PHMCustomPad" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DF4098031D7FFA4D0026434C /* Debug */,
-				DF4098041D7FFA4D0026434C /* Release */,
+				DFBF3EB31D8653AF00B84900 /* Debug */,
+				DFBF3EB41D8653AF00B84900 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DF4098051D7FFA4D0026434C /* Build configuration list for PBXNativeTarget "PHMAssetsManager" */ = {
+		DFBF3EB51D8653AF00B84900 /* Build configuration list for PBXNativeTarget "PHMCustomPad" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DF4098061D7FFA4D0026434C /* Debug */,
-				DF4098071D7FFA4D0026434C /* Release */,
+				DFBF3EB61D8653AF00B84900 /* Debug */,
+				DFBF3EB71D8653AF00B84900 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = DF4097F41D7FFA4D0026434C /* Project object */;
+	rootObject = DFBF3EA41D8653AF00B84900 /* Project object */;
 }

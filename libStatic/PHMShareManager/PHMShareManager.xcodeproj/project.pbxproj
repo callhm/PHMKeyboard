@@ -7,35 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DF40981E1D800B3A0026434C /* PHMAssetsSelectMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = DF40981D1D800B3A0026434C /* PHMAssetsSelectMenu.m */; };
-		DF4099211D8064C40026434C /* PHMAssetsSelectImagePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = DF4099201D8064C40026434C /* PHMAssetsSelectImagePicker.m */; };
+		DF4099C31D8139590026434C /* PHMShareManager.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = DF4099C21D8139590026434C /* PHMShareManager.h */; };
+		DF4099CE1D8139CE0026434C /* PHMShareRegister.m in Sources */ = {isa = PBXBuildFile; fileRef = DF4099CD1D8139CE0026434C /* PHMShareRegister.m */; };
+		DF4099D11D8141680026434C /* PHMShareRegisterParame.m in Sources */ = {isa = PBXBuildFile; fileRef = DF4099D01D8141680026434C /* PHMShareRegisterParame.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		DF4097FA1D7FFA4D0026434C /* CopyFiles */ = {
+		DF4099BD1D8139590026434C /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
+				DF4099C31D8139590026434C /* PHMShareManager.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		DF4097FC1D7FFA4D0026434C /* libPHMAssetsManager.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPHMAssetsManager.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		DF4098081D7FFAA10026434C /* PHMAssetsManager-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PHMAssetsManager-Prefix.pch"; sourceTree = "<group>"; };
-		DF4098091D7FFAB50026434C /* PHMAssetsManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PHMAssetsManager.h; sourceTree = "<group>"; };
-		DF40981C1D800B3A0026434C /* PHMAssetsSelectMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PHMAssetsSelectMenu.h; sourceTree = "<group>"; };
-		DF40981D1D800B3A0026434C /* PHMAssetsSelectMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PHMAssetsSelectMenu.m; sourceTree = "<group>"; };
-		DF40991F1D8064C40026434C /* PHMAssetsSelectImagePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PHMAssetsSelectImagePicker.h; sourceTree = "<group>"; };
-		DF4099201D8064C40026434C /* PHMAssetsSelectImagePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PHMAssetsSelectImagePicker.m; sourceTree = "<group>"; };
-		DF4099221D8068800026434C /* PHMAssetsSelectMenuDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PHMAssetsSelectMenuDelegate.h; sourceTree = "<group>"; };
+		DF4099BF1D8139590026434C /* libPHMShareManager.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPHMShareManager.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF4099C21D8139590026434C /* PHMShareManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PHMShareManager.h; sourceTree = "<group>"; };
+		DF4099CB1D8139890026434C /* PHMShareManager-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PHMShareManager-Prefix.pch"; sourceTree = "<group>"; };
+		DF4099CC1D8139CE0026434C /* PHMShareRegister.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PHMShareRegister.h; sourceTree = "<group>"; };
+		DF4099CD1D8139CE0026434C /* PHMShareRegister.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PHMShareRegister.m; sourceTree = "<group>"; };
+		DF4099CF1D8141680026434C /* PHMShareRegisterParame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PHMShareRegisterParame.h; sourceTree = "<group>"; };
+		DF4099D01D8141680026434C /* PHMShareRegisterParame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PHMShareRegisterParame.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		DF4097F91D7FFA4D0026434C /* Frameworks */ = {
+		DF4099BC1D8139590026434C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -45,102 +46,100 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		DF4097F31D7FFA4C0026434C = {
+		DF4099B61D8139590026434C = {
 			isa = PBXGroup;
 			children = (
-				DF4097FE1D7FFA4D0026434C /* PHMAssetsManager */,
-				DF4097FD1D7FFA4D0026434C /* Products */,
+				DF4099C11D8139590026434C /* PHMShareManager */,
+				DF4099C01D8139590026434C /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		DF4097FD1D7FFA4D0026434C /* Products */ = {
+		DF4099C01D8139590026434C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DF4097FC1D7FFA4D0026434C /* libPHMAssetsManager.a */,
+				DF4099BF1D8139590026434C /* libPHMShareManager.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		DF4097FE1D7FFA4D0026434C /* PHMAssetsManager */ = {
+		DF4099C11D8139590026434C /* PHMShareManager */ = {
 			isa = PBXGroup;
 			children = (
-				DF4098091D7FFAB50026434C /* PHMAssetsManager.h */,
-				DF4098081D7FFAA10026434C /* PHMAssetsManager-Prefix.pch */,
-				DF40981C1D800B3A0026434C /* PHMAssetsSelectMenu.h */,
-				DF40981D1D800B3A0026434C /* PHMAssetsSelectMenu.m */,
-				DF4099221D8068800026434C /* PHMAssetsSelectMenuDelegate.h */,
-				DF40991F1D8064C40026434C /* PHMAssetsSelectImagePicker.h */,
-				DF4099201D8064C40026434C /* PHMAssetsSelectImagePicker.m */,
+				DF4099C21D8139590026434C /* PHMShareManager.h */,
+				DF4099CB1D8139890026434C /* PHMShareManager-Prefix.pch */,
+				DF4099CC1D8139CE0026434C /* PHMShareRegister.h */,
+				DF4099CD1D8139CE0026434C /* PHMShareRegister.m */,
+				DF4099CF1D8141680026434C /* PHMShareRegisterParame.h */,
+				DF4099D01D8141680026434C /* PHMShareRegisterParame.m */,
 			);
-			path = PHMAssetsManager;
+			path = PHMShareManager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		DF4097FB1D7FFA4D0026434C /* PHMAssetsManager */ = {
+		DF4099BE1D8139590026434C /* PHMShareManager */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DF4098051D7FFA4D0026434C /* Build configuration list for PBXNativeTarget "PHMAssetsManager" */;
+			buildConfigurationList = DF4099C81D8139590026434C /* Build configuration list for PBXNativeTarget "PHMShareManager" */;
 			buildPhases = (
-				DF4097F81D7FFA4D0026434C /* Sources */,
-				DF4097F91D7FFA4D0026434C /* Frameworks */,
-				DF4097FA1D7FFA4D0026434C /* CopyFiles */,
+				DF4099BB1D8139590026434C /* Sources */,
+				DF4099BC1D8139590026434C /* Frameworks */,
+				DF4099BD1D8139590026434C /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = PHMAssetsManager;
-			productName = PHMAssetsManager;
-			productReference = DF4097FC1D7FFA4D0026434C /* libPHMAssetsManager.a */;
+			name = PHMShareManager;
+			productName = PHMShareManager;
+			productReference = DF4099BF1D8139590026434C /* libPHMShareManager.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		DF4097F41D7FFA4D0026434C /* Project object */ = {
+		DF4099B71D8139590026434C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				CLASSPREFIX = PHM;
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = PHM;
 				TargetAttributes = {
-					DF4097FB1D7FFA4D0026434C = {
+					DF4099BE1D8139590026434C = {
 						CreatedOnToolsVersion = 7.3.1;
 					};
 				};
 			};
-			buildConfigurationList = DF4097F71D7FFA4D0026434C /* Build configuration list for PBXProject "PHMAssetsManager" */;
+			buildConfigurationList = DF4099BA1D8139590026434C /* Build configuration list for PBXProject "PHMShareManager" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = DF4097F31D7FFA4C0026434C;
-			productRefGroup = DF4097FD1D7FFA4D0026434C /* Products */;
+			mainGroup = DF4099B61D8139590026434C;
+			productRefGroup = DF4099C01D8139590026434C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DF4097FB1D7FFA4D0026434C /* PHMAssetsManager */,
+				DF4099BE1D8139590026434C /* PHMShareManager */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		DF4097F81D7FFA4D0026434C /* Sources */ = {
+		DF4099BB1D8139590026434C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF4099211D8064C40026434C /* PHMAssetsSelectImagePicker.m in Sources */,
-				DF40981E1D800B3A0026434C /* PHMAssetsSelectMenu.m in Sources */,
+				DF4099D11D8141680026434C /* PHMShareRegisterParame.m in Sources */,
+				DF4099CE1D8139CE0026434C /* PHMShareRegister.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		DF4098031D7FFA4D0026434C /* Debug */ = {
+		DF4099C61D8139590026434C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -163,7 +162,6 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				FRAMEWORK_SEARCH_PATHS = "$(inherited)/**";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -178,14 +176,14 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
 		};
-		DF4098041D7FFA4D0026434C /* Release */ = {
+		DF4099C71D8139590026434C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -208,7 +206,6 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				FRAMEWORK_SEARCH_PATHS = "$(inherited)/**";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -217,22 +214,17 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		DF4098061D7FFA4D0026434C /* Debug */ = {
+		DF4099C91D8139590026434C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
-				CLANG_CXX_LIBRARY = "libstdc++";
-				FRAMEWORK_SEARCH_PATHS = "";
-				GCC_INPUT_FILETYPE = sourcecode.cpp.objcpp;
-				GCC_PREFIX_HEADER = "PHMAssetsManager/PHMAssetsManager-Prefix.pch";
+				GCC_PREFIX_HEADER = "PHMShareManager/PHMShareManager-Prefix.pch";
 				HEADER_SEARCH_PATHS = "$(SRCROOT)/../../Pods/Headers/**";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -240,15 +232,10 @@
 			};
 			name = Debug;
 		};
-		DF4098071D7FFA4D0026434C /* Release */ = {
+		DF4099CA1D8139590026434C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
-				CLANG_CXX_LIBRARY = "libstdc++";
-				FRAMEWORK_SEARCH_PATHS = "";
-				GCC_INPUT_FILETYPE = sourcecode.cpp.objcpp;
-				GCC_PREFIX_HEADER = "PHMAssetsManager/PHMAssetsManager-Prefix.pch";
+				GCC_PREFIX_HEADER = "PHMShareManager/PHMShareManager-Prefix.pch";
 				HEADER_SEARCH_PATHS = "$(SRCROOT)/../../Pods/Headers/**";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -259,25 +246,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		DF4097F71D7FFA4D0026434C /* Build configuration list for PBXProject "PHMAssetsManager" */ = {
+		DF4099BA1D8139590026434C /* Build configuration list for PBXProject "PHMShareManager" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DF4098031D7FFA4D0026434C /* Debug */,
-				DF4098041D7FFA4D0026434C /* Release */,
+				DF4099C61D8139590026434C /* Debug */,
+				DF4099C71D8139590026434C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DF4098051D7FFA4D0026434C /* Build configuration list for PBXNativeTarget "PHMAssetsManager" */ = {
+		DF4099C81D8139590026434C /* Build configuration list for PBXNativeTarget "PHMShareManager" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DF4098061D7FFA4D0026434C /* Debug */,
-				DF4098071D7FFA4D0026434C /* Release */,
+				DF4099C91D8139590026434C /* Debug */,
+				DF4099CA1D8139590026434C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = DF4097F41D7FFA4D0026434C /* Project object */;
+	rootObject = DF4099B71D8139590026434C /* Project object */;
 }

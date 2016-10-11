@@ -1,9 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Workspace
    version = "1.0">
+   <FileRef
+      location = "group:PixelMaster/PixelMaster.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:JavaScriptCoreTest/JavaScriptCoreTest.xcodeproj">
+   </FileRef>
    <Group
       location = "group:libStatic"
       name = "libStatic">
+      <FileRef
+         location = "group:PHMCustomPad/PHMCustomPad.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:PHMShareManager/PHMShareManager.xcodeproj">
+      </FileRef>
       <FileRef
          location = "group:PHMAssetsManager/PHMAssetsManager.xcodeproj">
       </FileRef>
