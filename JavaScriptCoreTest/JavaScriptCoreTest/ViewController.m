@@ -10,6 +10,7 @@
 #import <JavaScriptCore/JavaScriptCore.h>
 @interface ViewController ()
 @property (nonatomic, strong) JSContext *jsContext;
+
 @end
 
 @implementation ViewController
