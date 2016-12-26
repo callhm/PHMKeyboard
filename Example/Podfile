@@ -1,7 +1,7 @@
 use_frameworks!
 
 target 'PHMKeyboard_Example' do
-  pod 'PHMKeyboard', :path => '../'
+    #pod 'PHMKeyboard', :path => '../'
 
   target 'PHMKeyboard_Tests' do
     inherit! :search_paths

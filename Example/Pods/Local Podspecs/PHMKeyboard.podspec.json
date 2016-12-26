@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "summary": "A short description of PHMKeyboard.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/PHMKeyboard",
+  "homepage": "https://github.com/callHM/PHMKeyboard",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,18 @@
     "PHM": "251962881@qq.com"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/PHMKeyboard.git",
+    "git": "https://github.com/callHM/PHMKeyboard.git",
     "tag": "0.1.0"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "PHMKeyboard/Classes/**/*"
+  "requires_arc": true,
+  "source_files": "PHMKeyboard/Classes/**/*",
+  "ios": {
+    "frameworks": [
+      "Foundation",
+      "UIKit"
+    ]
+  }
 }

@@ -13,7 +13,6 @@
 		6003F598195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F596195388D20070C39A /* InfoPlist.strings */; };
 		6003F59A195388D20070C39A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F599195388D20070C39A /* main.m */; };
 		6003F59E195388D20070C39A /* PHMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* PHMAppDelegate.m */; };
-		6003F5A7195388D20070C39A /* PHMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* PHMViewController.m */; };
 		6003F5A9195388D20070C39A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A8195388D20070C39A /* Images.xcassets */; };
 		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
 		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
@@ -22,7 +21,9 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		61A0738B1CA33ACB2238FEA9 /* Pods_PHMKeyboard_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9C5441BAA6EFC3A50EAA33C /* Pods_PHMKeyboard_Example.framework */; };
 		79B6469D1650BFD96BD748B6 /* Pods_PHMKeyboard_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD0D1C4204C7B2C8875220BB /* Pods_PHMKeyboard_Tests.framework */; };
-		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		DFF8F5D41E111C4B005A28B6 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DFF8F5D31E111C4B005A28B6 /* Default-568h@2x.png */; };
+		DFF8F5F61E1142E4005A28B6 /* PHMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* PHMViewController.m */; };
+		DFF8F6181E114CC1005A28B6 /* PHMCustomStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = DFF8F6171E114CC1005A28B6 /* PHMCustomStyle.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		26B4E3C48864CD9089BA19EA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		26B4E3C48864CD9089BA19EA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		4239889F9CA70D0449DE24A3 /* Pods-PHMKeyboard_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PHMKeyboard_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PHMKeyboard_Tests/Pods-PHMKeyboard_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* PHMKeyboard_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PHMKeyboard_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -57,11 +58,13 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		8E7DBA2F7C1A984801A8BDE1 /* Pods-PHMKeyboard_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PHMKeyboard_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-PHMKeyboard_Example/Pods-PHMKeyboard_Example.release.xcconfig"; sourceTree = "<group>"; };
-		C845B505B3ECD45AD330E6BF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		CB37ABF834AC9C56B0380C7C /* PHMKeyboard.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = PHMKeyboard.podspec; path = ../PHMKeyboard.podspec; sourceTree = "<group>"; };
+		C845B505B3ECD45AD330E6BF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		CB37ABF834AC9C56B0380C7C /* PHMKeyboard.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = PHMKeyboard.podspec; path = ../PHMKeyboard.podspec; sourceTree = "<group>"; };
 		DD0D1C4204C7B2C8875220BB /* Pods_PHMKeyboard_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PHMKeyboard_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFF8F5D31E111C4B005A28B6 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		DFF8F6161E114CC1005A28B6 /* PHMCustomStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PHMCustomStyle.h; sourceTree = "<group>"; };
+		DFF8F6171E114CC1005A28B6 /* PHMCustomStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PHMCustomStyle.m; sourceTree = "<group>"; };
 		E7D8CFF833C82897BAD595FE /* Pods-PHMKeyboard_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PHMKeyboard_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PHMKeyboard_Example/Pods-PHMKeyboard_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		EFFD1668C2F48B19FAD40A18 /* Pods-PHMKeyboard_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PHMKeyboard_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PHMKeyboard_Tests/Pods-PHMKeyboard_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		F9C5441BAA6EFC3A50EAA33C /* Pods_PHMKeyboard_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PHMKeyboard_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -141,11 +144,13 @@
 		6003F593195388D20070C39A /* Example for PHMKeyboard */ = {
 			isa = PBXGroup;
 			children = (
+				DFF8F5D31E111C4B005A28B6 /* Default-568h@2x.png */,
 				6003F59C195388D20070C39A /* PHMAppDelegate.h */,
 				6003F59D195388D20070C39A /* PHMAppDelegate.m */,
-				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* PHMViewController.h */,
 				6003F5A6195388D20070C39A /* PHMViewController.m */,
+				DFF8F6161E114CC1005A28B6 /* PHMCustomStyle.h */,
+				DFF8F6171E114CC1005A28B6 /* PHMCustomStyle.m */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
 			);
@@ -276,7 +281,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
+				DFF8F5D41E111C4B005A28B6 /* Default-568h@2x.png in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
@@ -391,8 +396,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F59E195388D20070C39A /* PHMAppDelegate.m in Sources */,
-				6003F5A7195388D20070C39A /* PHMViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				DFF8F6181E114CC1005A28B6 /* PHMCustomStyle.m in Sources */,
+				DFF8F5F61E1142E4005A28B6 /* PHMViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -512,7 +518,6 @@
 			baseConfigurationReference = E7D8CFF833C82897BAD595FE /* Pods-PHMKeyboard_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PHMKeyboard/PHMKeyboard-Prefix.pch";
 				INFOPLIST_FILE = "PHMKeyboard/PHMKeyboard-Info.plist";
@@ -528,7 +533,6 @@
 			baseConfigurationReference = 8E7DBA2F7C1A984801A8BDE1 /* Pods-PHMKeyboard_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PHMKeyboard/PHMKeyboard-Prefix.pch";
 				INFOPLIST_FILE = "PHMKeyboard/PHMKeyboard-Info.plist";

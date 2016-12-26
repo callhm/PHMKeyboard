@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "3DD6F365558FED5BFFE3ED9D4C9540FFF48BE2C3",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "3DD6F365558FED5BFFE3ED9D4C9540FFF48BE2C3" : 9223372036854775807,
+    "2B13F895D978D815A43D53F0EB0EFB410DF17C6B" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "08C39540-F95D-49F5-BF3C-879E59A016F5",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "3DD6F365558FED5BFFE3ED9D4C9540FFF48BE2C3" : "PHMKeyboard\/",
+    "2B13F895D978D815A43D53F0EB0EFB410DF17C6B" : ".."
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "PHMKeyboard",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Example\/PHMKeyboard.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:callhm\/PHMKeyboard.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "2B13F895D978D815A43D53F0EB0EFB410DF17C6B"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/callhm\/PHMKeyboard.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "3DD6F365558FED5BFFE3ED9D4C9540FFF48BE2C3"
+    }
+  ]
+}

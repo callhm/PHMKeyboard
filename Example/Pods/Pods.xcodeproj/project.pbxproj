@@ -7,16 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0A14B9B9EF3CECBDAFBE2195D0D5A88B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		19382C73840C9291BF5FC20BFF9E8096 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C6F7454FDDF9122BD2B520D911793E6 /* ReplaceMe.m */; };
-		1B46A3152231CC4241D7B00BC65965AD /* PHMKeyboard-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D3E508B2816AB1FD18003316751F882 /* PHMKeyboard-dummy.m */; };
+		22B2C9D85EEF5E8B85C82D6E597A8004 /* PHMKeyboard-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E4CBF7A78732E1B62E860B49184999D /* PHMKeyboard-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		29E8742EF60738D94E77CFCEB01A5E3B /* Pods-PHMKeyboard_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CB41DD5AE065F2B9FBBC2ADADC44966 /* Pods-PHMKeyboard_Example-dummy.m */; };
-		432CA3A2DA872BFFAA59621BAFE63698 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		6FC783D78F95B9D3AD42F742C7CFD6C5 /* PHMKeyboard-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E4CBF7A78732E1B62E860B49184999D /* PHMKeyboard-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2A38150CF3F3085BA1900D7DD6D87F07 /* PHMKeyboardButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 7066104A747722D6BC6F0EE8914B5488 /* PHMKeyboardButton.m */; };
+		432CA3A2DA872BFFAA59621BAFE63698 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+		6B88FCE5053335BC33B9FEE079DB193D /* PHMKeyboardView.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B7353C66A72BBE6FA2ABDA92AD6ADE2 /* PHMKeyboardView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		76387713EE3A5BD0E7698E5215170D52 /* PHMKeyboardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E6969A8F2C371E6B5152D6C98BEC853 /* PHMKeyboardView.m */; };
+		99E1C12523CAF31DC5BAC3B491F6F3C3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */; };
+		9B884535916C4104E9B882EBF83F5C97 /* PHMKeyboard-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D3E508B2816AB1FD18003316751F882 /* PHMKeyboard-dummy.m */; };
+		A03617EE4DB4FC0235712BD523DA8FE5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+		A66DDD48B76EC050222B3D925178F706 /* PHMKeyboardButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 74EF12ACC1810EC5812C30520E9B2897 /* PHMKeyboardButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C6058B7DA103D8F35FC6F72D0CE11C7A /* Pods-PHMKeyboard_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 796B4145E989EF69B4F9B89243981E0A /* Pods-PHMKeyboard_Tests-dummy.m */; };
 		C7436A320F5898DF2289D2AB65FAB333 /* Pods-PHMKeyboard_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 48C3C42749C8A926A20C7BAF4343ACC6 /* Pods-PHMKeyboard_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CBDDEA9377A5950BA92FC4D9FDF0189E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		CBDDEA9377A5950BA92FC4D9FDF0189E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+		D120FF4B2FD8926A2B8818653052324A /* PHMKeyboardStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = 5EE1B98928EEE1FF1C3D437CA5D08DA0 /* PHMKeyboardStyle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DFF8F6111E114C86005A28B6 /* PHMKeyboardDefaultStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = DFF8F60F1E114C86005A28B6 /* PHMKeyboardDefaultStyle.h */; };
+		DFF8F6121E114C86005A28B6 /* PHMKeyboardDefaultStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = DFF8F6101E114C86005A28B6 /* PHMKeyboardDefaultStyle.m */; };
 		F02DDDC2599CD519DACC4621D2C22B26 /* Pods-PHMKeyboard_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D622A0521B4E47F6F086D666867BCFBC /* Pods-PHMKeyboard_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FE347B36042A80ABB01790A1751FAC5A /* PHMKeyboard.h in Headers */ = {isa = PBXBuildFile; fileRef = E7ED4F221CE5BF3F284C0B3F3A959D22 /* PHMKeyboard.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,25 +32,31 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 7FB76C866A2FA5514D49E41C8C5AED5C;
+			remoteGlobalIDString = FB8AF563B720BF30738CFFB827346BFD;
 			remoteInfo = PHMKeyboard;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		04D3C4D34ED758CFFA2884B60E9FCB1B /* Pods_PHMKeyboard_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PHMKeyboard_Tests.framework; path = "Pods-PHMKeyboard_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04D3C4D34ED758CFFA2884B60E9FCB1B /* Pods_PHMKeyboard_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PHMKeyboard_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B04A27AD3DB6A76C71E3F5DC3571184 /* PHMKeyboard.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PHMKeyboard.xcconfig; sourceTree = "<group>"; };
+		1E6969A8F2C371E6B5152D6C98BEC853 /* PHMKeyboardView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PHMKeyboardView.m; sourceTree = "<group>"; };
 		2CB41DD5AE065F2B9FBBC2ADADC44966 /* Pods-PHMKeyboard_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PHMKeyboard_Example-dummy.m"; sourceTree = "<group>"; };
 		2FFE2FD7E5594613EAAB7C736E89796C /* PHMKeyboard-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PHMKeyboard-prefix.pch"; sourceTree = "<group>"; };
+		3B7353C66A72BBE6FA2ABDA92AD6ADE2 /* PHMKeyboardView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PHMKeyboardView.h; sourceTree = "<group>"; };
 		427F750A47D5E6E2C72D780A5DE08D83 /* Pods-PHMKeyboard_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PHMKeyboard_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		48C3C42749C8A926A20C7BAF4343ACC6 /* Pods-PHMKeyboard_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PHMKeyboard_Tests-umbrella.h"; sourceTree = "<group>"; };
-		4952026419E82E7DF065C4C0692B17F2 /* Pods_PHMKeyboard_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PHMKeyboard_Example.framework; path = "Pods-PHMKeyboard_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4D3B41B43DA0CC64E7A5C4ECF4151E82 /* Pods-PHMKeyboard_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-PHMKeyboard_Example.modulemap"; sourceTree = "<group>"; };
+		4952026419E82E7DF065C4C0692B17F2 /* Pods_PHMKeyboard_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PHMKeyboard_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D3B41B43DA0CC64E7A5C4ECF4151E82 /* Pods-PHMKeyboard_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-PHMKeyboard_Example.modulemap"; sourceTree = "<group>"; };
+		5EE1B98928EEE1FF1C3D437CA5D08DA0 /* PHMKeyboardStyle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PHMKeyboardStyle.h; sourceTree = "<group>"; };
+		616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		690F398D80D43372221157D123FE656B /* Pods-PHMKeyboard_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PHMKeyboard_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7066104A747722D6BC6F0EE8914B5488 /* PHMKeyboardButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PHMKeyboardButton.m; sourceTree = "<group>"; };
+		74EF12ACC1810EC5812C30520E9B2897 /* PHMKeyboardButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PHMKeyboardButton.h; sourceTree = "<group>"; };
 		796B4145E989EF69B4F9B89243981E0A /* Pods-PHMKeyboard_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PHMKeyboard_Tests-dummy.m"; sourceTree = "<group>"; };
-		7C6F7454FDDF9122BD2B520D911793E6 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
 		7D3E508B2816AB1FD18003316751F882 /* PHMKeyboard-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PHMKeyboard-dummy.m"; sourceTree = "<group>"; };
 		7EA9DEA65D74D0A9C3813205868A6DC2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		8068B19C954022F9771CE166828780D2 /* Pods-PHMKeyboard_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PHMKeyboard_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		85DABFDED13446106B9551ADEC0B8545 /* Pods-PHMKeyboard_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PHMKeyboard_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		874095B31339C4656CC2566C9B06BF2E /* Pods-PHMKeyboard_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PHMKeyboard_Example-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -50,34 +64,37 @@
 		8ED0CAD44A5329DCFDC0FE0A7E848696 /* Pods-PHMKeyboard_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PHMKeyboard_Example.release.xcconfig"; sourceTree = "<group>"; };
 		903F75E91E3F831B06646A1F23E0A8A5 /* Pods-PHMKeyboard_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PHMKeyboard_Example-resources.sh"; sourceTree = "<group>"; };
 		91848040E1D83DD80B6A5022826BEC76 /* Pods-PHMKeyboard_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PHMKeyboard_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9E4CBF7A78732E1B62E860B49184999D /* PHMKeyboard-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PHMKeyboard-umbrella.h"; sourceTree = "<group>"; };
 		A781429613EB24EDA4AB1B52131DC8B8 /* Pods-PHMKeyboard_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PHMKeyboard_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		C3420B3D0A864EFF29F28B71848E9D06 /* Pods-PHMKeyboard_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-PHMKeyboard_Tests.modulemap"; sourceTree = "<group>"; };
-		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		C3420B3D0A864EFF29F28B71848E9D06 /* Pods-PHMKeyboard_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-PHMKeyboard_Tests.modulemap"; sourceTree = "<group>"; };
 		D10355CC640D507797B4AC88920A81D3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D25ABD6389053BAEC5664B77AF8A7730 /* Pods-PHMKeyboard_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PHMKeyboard_Example-frameworks.sh"; sourceTree = "<group>"; };
 		D622A0521B4E47F6F086D666867BCFBC /* Pods-PHMKeyboard_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PHMKeyboard_Example-umbrella.h"; sourceTree = "<group>"; };
-		D74C1262141FD7200ABE2ABB8C25AF6F /* PHMKeyboard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PHMKeyboard.framework; path = PHMKeyboard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D74C1262141FD7200ABE2ABB8C25AF6F /* PHMKeyboard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PHMKeyboard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC4F11A7477098AC60544C68736FB4BA /* Pods-PHMKeyboard_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PHMKeyboard_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		DFF8F60F1E114C86005A28B6 /* PHMKeyboardDefaultStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PHMKeyboardDefaultStyle.h; sourceTree = "<group>"; };
+		DFF8F6101E114C86005A28B6 /* PHMKeyboardDefaultStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PHMKeyboardDefaultStyle.m; sourceTree = "<group>"; };
+		E7ED4F221CE5BF3F284C0B3F3A959D22 /* PHMKeyboard.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PHMKeyboard.h; sourceTree = "<group>"; };
 		E81DF856FBDE6973DFCC39CC5A150BA9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F57929727BEFCCC1825F62CACBC181FA /* PHMKeyboard.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = PHMKeyboard.modulemap; sourceTree = "<group>"; };
+		F57929727BEFCCC1825F62CACBC181FA /* PHMKeyboard.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = PHMKeyboard.modulemap; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		BF6EF0A2845C6B893B1622D3F5AC2A53 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A03617EE4DB4FC0235712BD523DA8FE5 /* Foundation.framework in Frameworks */,
+				99E1C12523CAF31DC5BAC3B491F6F3C3 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D730DDCED8013501750CFB3F351F63B9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				432CA3A2DA872BFFAA59621BAFE63698 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DA33F763DA777D3DCDDA00EE2AC1E2EC /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0A14B9B9EF3CECBDAFBE2195D0D5A88B /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -102,6 +119,29 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		19C88C9CF1449C7958577A1D962AA0A3 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				E7ED4F221CE5BF3F284C0B3F3A959D22 /* PHMKeyboard.h */,
+				74EF12ACC1810EC5812C30520E9B2897 /* PHMKeyboardButton.h */,
+				7066104A747722D6BC6F0EE8914B5488 /* PHMKeyboardButton.m */,
+				3B7353C66A72BBE6FA2ABDA92AD6ADE2 /* PHMKeyboardView.h */,
+				1E6969A8F2C371E6B5152D6C98BEC853 /* PHMKeyboardView.m */,
+				5EE1B98928EEE1FF1C3D437CA5D08DA0 /* PHMKeyboardStyle.h */,
+				DFF8F60F1E114C86005A28B6 /* PHMKeyboardDefaultStyle.h */,
+				DFF8F6101E114C86005A28B6 /* PHMKeyboardDefaultStyle.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E6EE98446B568159EE277B68FD442AF0 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		5A83FCF3834D26DC0AFFA9E491A7A073 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -110,12 +150,11 @@
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		62D798893341EBFEC200DF25E70D980B /* PHMKeyboard */ = {
+		67F08CE3CDD2D64760DF8ED16C2A4D8B /* PHMKeyboard */ = {
 			isa = PBXGroup;
 			children = (
-				E79A6CBA338448A795347E4536C52C5C /* Classes */,
+				19C88C9CF1449C7958577A1D962AA0A3 /* Classes */,
 			);
-			name = PHMKeyboard;
 			path = PHMKeyboard;
 			sourceTree = "<group>";
 		};
@@ -128,18 +167,10 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
 		77F31462AE53F72FDA867E683C3C4951 /* PHMKeyboard */ = {
 			isa = PBXGroup;
 			children = (
-				62D798893341EBFEC200DF25E70D980B /* PHMKeyboard */,
+				67F08CE3CDD2D64760DF8ED16C2A4D8B /* PHMKeyboard */,
 				912D5023A36828A71C42731117F9EC5E /* Support Files */,
 			);
 			name = PHMKeyboard;
@@ -151,7 +182,7 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				5A83FCF3834D26DC0AFFA9E491A7A073 /* Development Pods */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
 				1579ECD90D396D99049FED385C862789 /* Products */,
 				74597C524CEA655D98F7C4028099E035 /* Targets Support Files */,
 			);
@@ -169,14 +200,6 @@
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/PHMKeyboard";
-			sourceTree = "<group>";
-		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		CEEC96CEDB173548D2FB79CC0058FC99 /* Pods-PHMKeyboard_Example */ = {
@@ -197,13 +220,13 @@
 			path = "Target Support Files/Pods-PHMKeyboard_Example";
 			sourceTree = "<group>";
 		};
-		E79A6CBA338448A795347E4536C52C5C /* Classes */ = {
+		E6EE98446B568159EE277B68FD442AF0 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				7C6F7454FDDF9122BD2B520D911793E6 /* ReplaceMe.m */,
+				616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */,
+				7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */,
 			);
-			name = Classes;
-			path = Classes;
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		F870BFA08DF6B670E14F96DFE05B2A34 /* Pods-PHMKeyboard_Tests */ = {
@@ -235,6 +258,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		BA19A6DE512A5CFC726577299BB0BB81 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22B2C9D85EEF5E8B85C82D6E597A8004 /* PHMKeyboard-umbrella.h in Headers */,
+				DFF8F6111E114C86005A28B6 /* PHMKeyboardDefaultStyle.h in Headers */,
+				FE347B36042A80ABB01790A1751FAC5A /* PHMKeyboard.h in Headers */,
+				A66DDD48B76EC050222B3D925178F706 /* PHMKeyboardButton.h in Headers */,
+				D120FF4B2FD8926A2B8818653052324A /* PHMKeyboardStyle.h in Headers */,
+				6B88FCE5053335BC33B9FEE079DB193D /* PHMKeyboardView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C3C30D98FC26BB581D07DF4374C7ED7C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -243,34 +279,9 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F4B62EC8C5E7925D67A260D429D23738 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6FC783D78F95B9D3AD42F742C7CFD6C5 /* PHMKeyboard-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		7FB76C866A2FA5514D49E41C8C5AED5C /* PHMKeyboard */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 5BCB835A61B09ADA36C09318878ABA1D /* Build configuration list for PBXNativeTarget "PHMKeyboard" */;
-			buildPhases = (
-				730A5D2D9357F07CBF5A2F9CEC8C545C /* Sources */,
-				DA33F763DA777D3DCDDA00EE2AC1E2EC /* Frameworks */,
-				F4B62EC8C5E7925D67A260D429D23738 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = PHMKeyboard;
-			productName = PHMKeyboard;
-			productReference = D74C1262141FD7200ABE2ABB8C25AF6F /* PHMKeyboard.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		BACB7780D07B57DA06AB62E1F55A6EE5 /* Pods-PHMKeyboard_Tests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6112B959B4192BF74CA5EC129EF8ADE2 /* Build configuration list for PBXNativeTarget "Pods-PHMKeyboard_Tests" */;
@@ -306,6 +317,23 @@
 			productReference = 4952026419E82E7DF065C4C0692B17F2 /* Pods_PHMKeyboard_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		FB8AF563B720BF30738CFFB827346BFD /* PHMKeyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 162F1C468FF1DC33B99124D11F60DC55 /* Build configuration list for PBXNativeTarget "PHMKeyboard" */;
+			buildPhases = (
+				0A9CC4EA51AC1116DC4EDDDFDC1A7408 /* Sources */,
+				BF6EF0A2845C6B893B1622D3F5AC2A53 /* Frameworks */,
+				BA19A6DE512A5CFC726577299BB0BB81 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PHMKeyboard;
+			productName = PHMKeyboard;
+			productReference = D74C1262141FD7200ABE2ABB8C25AF6F /* PHMKeyboard.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -327,7 +355,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7FB76C866A2FA5514D49E41C8C5AED5C /* PHMKeyboard */,
+				FB8AF563B720BF30738CFFB827346BFD /* PHMKeyboard */,
 				F69598606C08BC1353A39CD6AF95B6CA /* Pods-PHMKeyboard_Example */,
 				BACB7780D07B57DA06AB62E1F55A6EE5 /* Pods-PHMKeyboard_Tests */,
 			);
@@ -335,12 +363,14 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		730A5D2D9357F07CBF5A2F9CEC8C545C /* Sources */ = {
+		0A9CC4EA51AC1116DC4EDDDFDC1A7408 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1B46A3152231CC4241D7B00BC65965AD /* PHMKeyboard-dummy.m in Sources */,
-				19382C73840C9291BF5FC20BFF9E8096 /* ReplaceMe.m in Sources */,
+				DFF8F6121E114C86005A28B6 /* PHMKeyboardDefaultStyle.m in Sources */,
+				9B884535916C4104E9B882EBF83F5C97 /* PHMKeyboard-dummy.m in Sources */,
+				2A38150CF3F3085BA1900D7DD6D87F07 /* PHMKeyboardButton.m in Sources */,
+				76387713EE3A5BD0E7698E5215170D52 /* PHMKeyboardView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -366,43 +396,12 @@
 		A28B595CE16E5E34E58CA7357087F195 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = PHMKeyboard;
-			target = 7FB76C866A2FA5514D49E41C8C5AED5C /* PHMKeyboard */;
+			target = FB8AF563B720BF30738CFFB827346BFD /* PHMKeyboard */;
 			targetProxy = D61C69474C3B7D2249F9B38E459596FF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0ACEC455F6B7D37E9984B72413204618 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0B04A27AD3DB6A76C71E3F5DC3571184 /* PHMKeyboard.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/PHMKeyboard/PHMKeyboard-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/PHMKeyboard/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/PHMKeyboard/PHMKeyboard.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = PHMKeyboard;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		4503DE2DE6264DC8674AE52E7C57FE03 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 91848040E1D83DD80B6A5022826BEC76 /* Pods-PHMKeyboard_Tests.release.xcconfig */;
@@ -465,37 +464,6 @@
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = Pods_PHMKeyboard_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		5C72C127F23A776E4D705B170C9AEA9E /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0B04A27AD3DB6A76C71E3F5DC3571184 /* PHMKeyboard.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/PHMKeyboard/PHMKeyboard-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/PHMKeyboard/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/PHMKeyboard/PHMKeyboard.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = PHMKeyboard;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -658,23 +626,85 @@
 			};
 			name = Debug;
 		};
+		C4F084499F346C0E38F617F5B286AA8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B04A27AD3DB6A76C71E3F5DC3571184 /* PHMKeyboard.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/PHMKeyboard/PHMKeyboard-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PHMKeyboard/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PHMKeyboard/PHMKeyboard.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = PHMKeyboard;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DE846CF63B23A1ABDED27C026ABB1831 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B04A27AD3DB6A76C71E3F5DC3571184 /* PHMKeyboard.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/PHMKeyboard/PHMKeyboard-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PHMKeyboard/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PHMKeyboard/PHMKeyboard.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = PHMKeyboard;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		162F1C468FF1DC33B99124D11F60DC55 /* Build configuration list for PBXNativeTarget "PHMKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE846CF63B23A1ABDED27C026ABB1831 /* Debug */,
+				C4F084499F346C0E38F617F5B286AA8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9E1E4E48AF2EAB23169E611BF694090A /* Debug */,
 				8DED8AD26D381A6ACFF202E5217EC498 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		5BCB835A61B09ADA36C09318878ABA1D /* Build configuration list for PBXNativeTarget "PHMKeyboard" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				0ACEC455F6B7D37E9984B72413204618 /* Debug */,
-				5C72C127F23A776E4D705B170C9AEA9E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
