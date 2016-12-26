@@ -1,0 +1,6 @@
+framework module PHMKeyboard {
+  umbrella header "PHMKeyboard-umbrella.h"
+
+  export *
+  module * { export * }
+}

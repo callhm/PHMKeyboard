@@ -1,0 +1,6 @@
+framework module Pods_PHMKeyboard_Tests {
+  umbrella header "Pods-PHMKeyboard_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

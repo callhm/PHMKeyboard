@@ -1,0 +1,6 @@
+framework module Pods_PHMKeyboard_Example {
+  umbrella header "Pods-PHMKeyboard_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

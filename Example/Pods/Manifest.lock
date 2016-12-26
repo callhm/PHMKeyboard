@@ -1,0 +1,16 @@
+PODS:
+  - PHMKeyboard (0.1.0)
+
+DEPENDENCIES:
+  - PHMKeyboard (from `../`)
+
+EXTERNAL SOURCES:
+  PHMKeyboard:
+    :path: ../
+
+SPEC CHECKSUMS:
+  PHMKeyboard: 8ac3021e08dc126fd817839dd09eb75e1ddb0cc4
+
+PODFILE CHECKSUM: c53a7d474dcb4490c922f53824a17201be4ef8aa
+
+COCOAPODS: 1.1.1
