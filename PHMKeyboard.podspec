@@ -25,7 +25,7 @@ TODO: Add long description of the pod here.
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'PHM' => '251962881@qq.com' }
-  s.source           = { :git => 'https://github.com/callHM/PHMKeyboard.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/callHM/PHMKeyboard.git', :commit => '878d6c0bf8fa2b6cbe790afa566a7fcd15439f5c'}
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '7.0'
