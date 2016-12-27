@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'PHMKeyboard'
-  s.version          = '1.0.2'
+  s.version          = '1.0.3'
   s.summary          = 'A short description of PHMKeyboard.'
 
 # This description is used to generate tags and improve search results.
@@ -25,7 +25,7 @@ TODO: Add long description of the pod here.
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'PHM' => '251962881@qq.com' }
-  s.source           = { :git => 'https://github.com/callHM/PHMKeyboard.git', :commit => '547fc2756519b51b938152b5249402e53ae02054'}
+  s.source           = { :git => 'https://github.com/callHM/PHMKeyboard.git', :commit => 'e2e6697c264cf23be0ba468b6c251a3ddfd8fb50'}
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '7.0'
