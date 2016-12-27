@@ -29,9 +29,9 @@ TODO: Add long description of the pod here.
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '7.0'
-  s.requires_arc = true
   s.source_files = 'PHMKeyboard/Classes/*.{h,m}'
-  
+  s.requires_arc = true
+
   # s.resource_bundles = {
   #   'PHMKeyboard' => ['PHMKeyboard/Assets/*.png']
   # }
