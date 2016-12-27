@@ -57,12 +57,12 @@
     [super layoutSubviews];
     NSArray *array = [self.styleClass keyboardButtonPosition];
     CGFloat sep = [self.styleClass separator];
-    NSInteger section = [self.styleClass keyboardStyle].horizontal;
-    NSInteger row = [self.styleClass keyboardStyle].vertical;
+    NSInteger section = [self.styleClass keyboardStyle].vertical;
+    NSInteger row = [self.styleClass keyboardStyle].horizontal;
     CGSize buttonSize = CGSizeMake((CGRectGetWidth(self.bounds) - sep * (section - 1)) / section, (CGRectGetHeight(self.bounds) - sep * (row - 1)) / row);
     NSInteger btntag = 0;
-    for (int i = 0; i < section; i++) {
-        for (int j = 0; j < row; j++) {
+    for (int i = 0; i < row; i++) {
+        for (int j = 0; j < section; j++) {
             if (CGPointFromString(array[i][j]).x >0 && CGPointFromString(array[i][j]).y >0) {
                 PHMKeyboardButton *keyboardButton = self.buttons[btntag];
                 keyboardButton.frame = CGRectMake(j*(buttonSize.width+sep), i*(buttonSize.height+sep), buttonSize.width*CGPointFromString(array[i][j]).x, buttonSize.height*CGPointFromString(array[i][j]).y);

@@ -19,16 +19,16 @@ static UIColor *PHMKS_UIColorFromRGB(rgbValue) {
 @implementation PHMCustomStyle
 #pragma mark - Pad Style
 +(CGKeyboardStyle)keyboardStyle {
-    return CGKeyboardStyleMake(4, 4);
+    return CGKeyboardStyleMake(4, 5);
 }
 
 //按照keyboardStyle 行列数进行排列
 + (NSArray *)keyboardButtonPosition {
     return @[
-             @[@"{1,1}",@"{1,1}",@"{1,1}",@"{1,1}"],
-             @[@"{1,1}",@"{1,1}",@"{1,1}",@"{1,2}"],
-             @[@"{1,1}",@"{1,1}",@"{1,1}",@"{1,0}"],
-             @[@"{2,1}",@"{0,1}",@"{2,1}",@"{0,1}"],
+             @[@"{1,1}",@"{1,3}",@"{1,1}",@"{2,1}",@"{0,1}"],
+             @[@"{1,1}",@"{1,0}",@"{2,1}",@"{0,1}",@"{1,1}"],
+             @[@"{1,1}",@"{1,0}",@"{1,1}",@"{1,2}",@"{1,1}"],
+             @[@"{3,1}",@"{0,1}",@"{0,1}",@"{2,0}",@"{1,1}"],
              ];
 }
 
@@ -41,7 +41,7 @@ static UIColor *PHMKS_UIColorFromRGB(rgbValue) {
 }
 
 + (NSArray *)keyboardButtonTitle{
-    return @[@"7",@"8",@"9",@"+",@"4",@"5",@"6",@"确定",@"1",@"2",@"3",@"0",@"."];
+    return @[@"1",@"2",@"3",@"-",@"4",@"5",@"6",@"+",@"Q",@"7",@"8",@"9",@"0"];
 }
 
 #pragma mark - Button Style
@@ -54,7 +54,7 @@ static UIColor *PHMKS_UIColorFromRGB(rgbValue) {
 }
 
 + (UIColor *)keyboardButtonBackgroundColor{
-    return PHMKS_UIColorFromRGB(0xFFFFFF);
+    return PHMKS_UIColorFromRGB(0xFFFF00);
 }
 
 + (UIColor *)keyboardButtonHighlightedColor{

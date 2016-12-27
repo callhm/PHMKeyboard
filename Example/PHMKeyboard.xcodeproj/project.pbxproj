@@ -252,6 +252,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = PHM;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = 9PH4F4UY7D;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -518,6 +521,7 @@
 			baseConfigurationReference = E7D8CFF833C82897BAD595FE /* Pods-PHMKeyboard_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9PH4F4UY7D;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PHMKeyboard/PHMKeyboard-Prefix.pch";
 				INFOPLIST_FILE = "PHMKeyboard/PHMKeyboard-Info.plist";
@@ -533,6 +537,7 @@
 			baseConfigurationReference = 8E7DBA2F7C1A984801A8BDE1 /* Pods-PHMKeyboard_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9PH4F4UY7D;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PHMKeyboard/PHMKeyboard-Prefix.pch";
 				INFOPLIST_FILE = "PHMKeyboard/PHMKeyboard-Info.plist";
