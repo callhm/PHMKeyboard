@@ -36,7 +36,7 @@ text:(NSString *)text {
 NSLog(@"%@",text);
 }
 @end
-
+```
 ## Installation
 
 PHMKeyboard is available through [CocoaPods](http://cocoapods.org). To install
