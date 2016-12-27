@@ -65,7 +65,10 @@
         for (int j = 0; j < section; j++) {
             if (CGPointFromString(array[i][j]).x >0 && CGPointFromString(array[i][j]).y >0) {
                 PHMKeyboardButton *keyboardButton = self.buttons[btntag];
-                keyboardButton.frame = CGRectMake(j*(buttonSize.width+sep), i*(buttonSize.height+sep), buttonSize.width*CGPointFromString(array[i][j]).x, buttonSize.height*CGPointFromString(array[i][j]).y);
+                keyboardButton.frame = CGRectMake(j*(buttonSize.width+sep),
+                                                  i*(buttonSize.height+sep),
+                                                  buttonSize.width*CGPointFromString(array[i][j]).x+(CGPointFromString(array[i][j]).x-1)*sep,
+                                                  buttonSize.height*CGPointFromString(array[i][j]).y+(CGPointFromString(array[i][j]).y-1)*sep);
                 btntag++;
                 if (btntag == [self.styleClass keyboardButtonTitle].count) {
                     return;
